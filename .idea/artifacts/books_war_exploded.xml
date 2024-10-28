@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="books:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/books_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="books" />
+        </element>
+      </element>
+      <element id="library" level="module" name="mysql-connector-java-8.0.18.jar" module-name="books" />
+      <element id="javaee-facet-resources" facet="books/web/Web" />
+    </root>
+  </artifact>
+</component>
